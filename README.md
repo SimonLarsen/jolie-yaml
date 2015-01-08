@@ -3,6 +3,19 @@ jolie-yaml
 
 Simple YAML to Jolie value library in development.
 
+## Compilation ##
+
+Download [snakeyaml](https://code.google.com/p/snakeyaml/) and place it in `lib/` as `snakeyaml.jar`,
+then do
+
+```
+cd jolie-yaml
+ant
+```
+
+Build file assumes you have Jolie installed in `/opt/jolie`.
+Change `build.xml` if you want to use different paths.
+
 ## Example ##
 
 ```yaml
