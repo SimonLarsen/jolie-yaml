@@ -30,10 +30,12 @@ main {
 
 Usage:
 
-    $ jolie example.ol
-    Value
-    	.children[0]
-    		.list[0] = Alice : java.lang.String
-    		.list[1] = Bob : java.lang.String
-    	.age[0] = 27 : java.lang.Integer
-    	.name[0] = John : java.lang.String
+```
+$ jolie example.ol
+Value
+	.children[0]
+		.list[0] = Alice : java.lang.String
+		.list[1] = Bob : java.lang.String
+	.age[0] = 27 : java.lang.Integer
+	.name[0] = John : java.lang.String
+```
